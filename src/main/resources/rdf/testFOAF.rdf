@@ -1,0 +1,47 @@
+<rdf:RDF
+      xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+      xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+      xmlns:foaf="http://xmlns.com/foaf/0.1/"
+      xmlns:admin="http://webns.net/mvcb/">
+<foaf:PersonalProfileDocument rdf:about="">
+  <foaf:maker rdf:resource="#me"/>
+  <foaf:primaryTopic rdf:resource="#me"/>
+  <admin:generatorAgent rdf:resource="http://www.ldodds.com/foaf/foaf-a-matic"/>
+  <admin:errorReportsTo rdf:resource="mailto:leigh@ldodds.com"/>
+</foaf:PersonalProfileDocument>
+<foaf:Person rdf:ID="me">
+	<foaf:name xml:lang="en">Jaydeep Chakraborty</foaf:name>
+	<foaf:title>Dr.</foaf:title>
+	<foaf:givenname>Jaydeep</foaf:givenname>
+	<foaf:family_name>Chakraborty</foaf:family_name>
+	<foaf:nick>MrChak</foaf:nick>
+	<foaf:mbox_sha1sum>b1662ccb1da9bf7a22538602cda4559a5a98dfa2</foaf:mbox_sha1sum>
+	<foaf:homepage rdf:resource="myhomepage"/>
+	<foaf:depiction rdf:resource="mosthandsome"/>
+	<foaf:phone rdf:resource="tel:111"/>
+	<foaf:workplaceHomepage rdf:resource="sd"/>
+	<foaf:workInfoHomepage rdf:resource="dsf"/>
+	<foaf:schoolHomepage rdf:resource="sdf"/>
+	<foaf:knows>
+		<foaf:Person>
+			<foaf:name xml:lang="fr">jayeeta</foaf:name>
+			<foaf:mbox_sha1sum>9d0bdc7330a963dcd362c515f1e68f8d03a33c28</foaf:mbox_sha1sum>
+			<rdfs:seeAlso rdf:resource="max"/>
+		</foaf:Person>
+	</foaf:knows>
+	<foaf:knows>
+		<foaf:Person>
+			<foaf:name xml:lang="en">max</foaf:name>
+			<foaf:mbox_sha1sum>f4eab28865cc04ac1a90dcce2a0e038ceeb9b070</foaf:mbox_sha1sum>
+			<rdfs:seeAlso rdf:resource="rebeca"/>
+		</foaf:Person>
+	</foaf:knows>
+	<foaf:knows>
+		<foaf:Person>
+			<foaf:name>Rebeaca</foaf:name>
+			<foaf:mbox_sha1sum>6c35d636d506b9114ae943de83abc73b8efefb91</foaf:mbox_sha1sum>
+			<rdfs:seeAlso rdf:resource="jaydeep"/>
+		</foaf:Person>
+	</foaf:knows>
+</foaf:Person>
+</rdf:RDF>

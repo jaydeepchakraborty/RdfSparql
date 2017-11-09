@@ -1,0 +1,179 @@
+{ 
+  "_:-432732d8:1480ff983f5:-7ffe" : { 
+    "http://xmlns.com/foaf/0.1/name" : [ { 
+      "type" : "literal" ,
+      "value" : "max"
+    }
+     ] ,
+    "http://www.w3.org/2000/01/rdf-schema#seeAlso" : [ { 
+      "type" : "uri" ,
+      "value" : "file:///D:/ApacheJena/WorkSpace/SAMPLE_APACHE_JENA/SPARQL_EXAMPLE/rdf/rebeca"
+    }
+     ] ,
+    "http://xmlns.com/foaf/0.1/mbox_sha1sum" : [ { 
+      "type" : "literal" ,
+      "value" : "f4eab28865cc04ac1a90dcce2a0e038ceeb9b070"
+    }
+     ] ,
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ { 
+      "type" : "uri" ,
+      "value" : "http://xmlns.com/foaf/0.1/Person"
+    }
+     ]
+  }
+   ,
+  "_:-432732d8:1480ff983f5:-7ffd" : { 
+    "http://xmlns.com/foaf/0.1/name" : [ { 
+      "type" : "literal" ,
+      "value" : "Rebeac"
+    }
+     ] ,
+    "http://www.w3.org/2000/01/rdf-schema#seeAlso" : [ { 
+      "type" : "uri" ,
+      "value" : "file:///D:/ApacheJena/WorkSpace/SAMPLE_APACHE_JENA/SPARQL_EXAMPLE/rdf/jaydeep"
+    }
+     ] ,
+    "http://xmlns.com/foaf/0.1/mbox_sha1sum" : [ { 
+      "type" : "literal" ,
+      "value" : "6c35d636d506b9114ae943de83abc73b8efefb91"
+    }
+     ] ,
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ { 
+      "type" : "uri" ,
+      "value" : "http://xmlns.com/foaf/0.1/Person"
+    }
+     ]
+  }
+   ,
+  "file:///D:/ApacheJena/WorkSpace/SAMPLE_APACHE_JENA/SPARQL_EXAMPLE/rdf/testFOAF.rdf#me" : { 
+    "http://xmlns.com/foaf/0.1/nick" : [ { 
+      "type" : "literal" ,
+      "value" : "MrChak"
+    }
+     ] ,
+    "http://xmlns.com/foaf/0.1/givenname" : [ { 
+      "type" : "literal" ,
+      "value" : "Jaydeep"
+    }
+     ] ,
+    "http://xmlns.com/foaf/0.1/schoolHomepage" : [ { 
+      "type" : "uri" ,
+      "value" : "file:///D:/ApacheJena/WorkSpace/SAMPLE_APACHE_JENA/SPARQL_EXAMPLE/rdf/sdf"
+    }
+     ] ,
+    "http://xmlns.com/foaf/0.1/homepage" : [ { 
+      "type" : "uri" ,
+      "value" : "file:///D:/ApacheJena/WorkSpace/SAMPLE_APACHE_JENA/SPARQL_EXAMPLE/rdf/myhomepage"
+    }
+     ] ,
+    "http://xmlns.com/foaf/0.1/knows" : [ { 
+      "type" : "bnode" ,
+      "value" : "_:-432732d8:1480ff983f5:-7ffe"
+    }
+    , { 
+      "type" : "bnode" ,
+      "value" : "_:-432732d8:1480ff983f5:-7ffd"
+    }
+    , { 
+      "type" : "bnode" ,
+      "value" : "_:-432732d8:1480ff983f5:-7fff"
+    }
+     ] ,
+    "http://xmlns.com/foaf/0.1/family_name" : [ { 
+      "type" : "literal" ,
+      "value" : "Chakraborty"
+    }
+     ] ,
+    "http://xmlns.com/foaf/0.1/name" : [ { 
+      "type" : "literal" ,
+      "value" : "Jaydeep Chakraborty"
+    }
+     ] ,
+    "http://xmlns.com/foaf/0.1/workInfoHomepage" : [ { 
+      "type" : "uri" ,
+      "value" : "file:///D:/ApacheJena/WorkSpace/SAMPLE_APACHE_JENA/SPARQL_EXAMPLE/rdf/dsf"
+    }
+     ] ,
+    "http://xmlns.com/foaf/0.1/phone" : [ { 
+      "type" : "uri" ,
+      "value" : "tel:111"
+    }
+     ] ,
+    "http://xmlns.com/foaf/0.1/workplaceHomepage" : [ { 
+      "type" : "uri" ,
+      "value" : "file:///D:/ApacheJena/WorkSpace/SAMPLE_APACHE_JENA/SPARQL_EXAMPLE/rdf/sd"
+    }
+     ] ,
+    "http://xmlns.com/foaf/0.1/mbox_sha1sum" : [ { 
+      "type" : "literal" ,
+      "value" : "b1662ccb1da9bf7a22538602cda4559a5a98dfa2"
+    }
+     ] ,
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ { 
+      "type" : "uri" ,
+      "value" : "http://xmlns.com/foaf/0.1/Person"
+    }
+     ] ,
+    "http://xmlns.com/foaf/0.1/title" : [ { 
+      "type" : "literal" ,
+      "value" : "Dr."
+    }
+     ] ,
+    "http://xmlns.com/foaf/0.1/depiction" : [ { 
+      "type" : "uri" ,
+      "value" : "file:///D:/ApacheJena/WorkSpace/SAMPLE_APACHE_JENA/SPARQL_EXAMPLE/rdf/mosthandsome"
+    }
+     ]
+  }
+   ,
+  "file:///D:/ApacheJena/WorkSpace/SAMPLE_APACHE_JENA/SPARQL_EXAMPLE/rdf/testFOAF.rdf" : { 
+    "http://webns.net/mvcb/errorReportsTo" : [ { 
+      "type" : "uri" ,
+      "value" : "mailto:leigh@ldodds.com"
+    }
+     ] ,
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ { 
+      "type" : "uri" ,
+      "value" : "http://xmlns.com/foaf/0.1/PersonalProfileDocument"
+    }
+     ] ,
+    "http://webns.net/mvcb/generatorAgent" : [ { 
+      "type" : "uri" ,
+      "value" : "http://www.ldodds.com/foaf/foaf-a-matic"
+    }
+     ] ,
+    "http://xmlns.com/foaf/0.1/maker" : [ { 
+      "type" : "uri" ,
+      "value" : "file:///D:/ApacheJena/WorkSpace/SAMPLE_APACHE_JENA/SPARQL_EXAMPLE/rdf/testFOAF.rdf#me"
+    }
+     ] ,
+    "http://xmlns.com/foaf/0.1/primaryTopic" : [ { 
+      "type" : "uri" ,
+      "value" : "file:///D:/ApacheJena/WorkSpace/SAMPLE_APACHE_JENA/SPARQL_EXAMPLE/rdf/testFOAF.rdf#me"
+    }
+     ]
+  }
+   ,
+  "_:-432732d8:1480ff983f5:-7fff" : { 
+    "http://www.w3.org/2000/01/rdf-schema#seeAlso" : [ { 
+      "type" : "uri" ,
+      "value" : "file:///D:/ApacheJena/WorkSpace/SAMPLE_APACHE_JENA/SPARQL_EXAMPLE/rdf/max"
+    }
+     ] ,
+    "http://xmlns.com/foaf/0.1/name" : [ { 
+      "type" : "literal" ,
+      "value" : "jayeeta"
+    }
+     ] ,
+    "http://xmlns.com/foaf/0.1/mbox_sha1sum" : [ { 
+      "type" : "literal" ,
+      "value" : "9d0bdc7330a963dcd362c515f1e68f8d03a33c28"
+    }
+     ] ,
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ { 
+      "type" : "uri" ,
+      "value" : "http://xmlns.com/foaf/0.1/Person"
+    }
+     ]
+  }
+}

@@ -1,0 +1,41 @@
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix foaf:  <http://xmlns.com/foaf/0.1/> .
+@prefix admin: <http://webns.net/mvcb/> .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+
+<file:///D:/ApacheJena/WorkSpace/SAMPLE_APACHE_JENA/SPARQL_EXAMPLE/rdf/testFOAF.rdf#me>
+        a                       foaf:Person ;
+        foaf:depiction          <file:///D:/ApacheJena/WorkSpace/SAMPLE_APACHE_JENA/SPARQL_EXAMPLE/rdf/mosthandsome> ;
+        foaf:family_name        "Chakraborty" ;
+        foaf:givenname          "Jaydeep" ;
+        foaf:homepage           <file:///D:/ApacheJena/WorkSpace/SAMPLE_APACHE_JENA/SPARQL_EXAMPLE/rdf/myhomepage> ;
+        foaf:knows              [ a                  foaf:Person ;
+                                  rdfs:seeAlso       <file:///D:/ApacheJena/WorkSpace/SAMPLE_APACHE_JENA/SPARQL_EXAMPLE/rdf/max> ;
+                                  foaf:mbox_sha1sum  "9d0bdc7330a963dcd362c515f1e68f8d03a33c28" ;
+                                  foaf:name          "jayeeta"
+                                ] ;
+        foaf:knows              [ a                  foaf:Person ;
+                                  rdfs:seeAlso       <file:///D:/ApacheJena/WorkSpace/SAMPLE_APACHE_JENA/SPARQL_EXAMPLE/rdf/rebeca> ;
+                                  foaf:mbox_sha1sum  "f4eab28865cc04ac1a90dcce2a0e038ceeb9b070" ;
+                                  foaf:name          "max"
+                                ] ;
+        foaf:knows              [ a                  foaf:Person ;
+                                  rdfs:seeAlso       <file:///D:/ApacheJena/WorkSpace/SAMPLE_APACHE_JENA/SPARQL_EXAMPLE/rdf/jaydeep> ;
+                                  foaf:mbox_sha1sum  "6c35d636d506b9114ae943de83abc73b8efefb91" ;
+                                  foaf:name          "Rebeac"
+                                ] ;
+        foaf:mbox_sha1sum       "b1662ccb1da9bf7a22538602cda4559a5a98dfa2" ;
+        foaf:name               "Jaydeep Chakraborty" ;
+        foaf:nick               "MrChak" ;
+        foaf:phone              <tel:111> ;
+        foaf:schoolHomepage     <file:///D:/ApacheJena/WorkSpace/SAMPLE_APACHE_JENA/SPARQL_EXAMPLE/rdf/sdf> ;
+        foaf:title              "Dr." ;
+        foaf:workInfoHomepage   <file:///D:/ApacheJena/WorkSpace/SAMPLE_APACHE_JENA/SPARQL_EXAMPLE/rdf/dsf> ;
+        foaf:workplaceHomepage  <file:///D:/ApacheJena/WorkSpace/SAMPLE_APACHE_JENA/SPARQL_EXAMPLE/rdf/sd> .
+
+<file:///D:/ApacheJena/WorkSpace/SAMPLE_APACHE_JENA/SPARQL_EXAMPLE/rdf/testFOAF.rdf>
+        a                     foaf:PersonalProfileDocument ;
+        admin:errorReportsTo  <mailto:leigh@ldodds.com> ;
+        admin:generatorAgent  <http://www.ldodds.com/foaf/foaf-a-matic> ;
+        foaf:maker            <file:///D:/ApacheJena/WorkSpace/SAMPLE_APACHE_JENA/SPARQL_EXAMPLE/rdf/testFOAF.rdf#me> ;
+        foaf:primaryTopic     <file:///D:/ApacheJena/WorkSpace/SAMPLE_APACHE_JENA/SPARQL_EXAMPLE/rdf/testFOAF.rdf#me> .

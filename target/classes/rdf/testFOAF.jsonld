@@ -1,0 +1,105 @@
+{
+  "@graph" : [ {
+    "@id" : "_:b0",
+    "@type" : "foaf:Person",
+    "seeAlso" : "file:///D:/ApacheJena/WorkSpace/SAMPLE_APACHE_JENA/SPARQL_EXAMPLE/rdf/jaydeep",
+    "mbox_sha1sum" : "6c35d636d506b9114ae943de83abc73b8efefb91",
+    "name" : "Rebeac"
+  }, {
+    "@id" : "_:b1",
+    "@type" : "foaf:Person",
+    "seeAlso" : "file:///D:/ApacheJena/WorkSpace/SAMPLE_APACHE_JENA/SPARQL_EXAMPLE/rdf/rebeca",
+    "mbox_sha1sum" : "f4eab28865cc04ac1a90dcce2a0e038ceeb9b070",
+    "name" : "max"
+  }, {
+    "@id" : "_:b2",
+    "@type" : "foaf:Person",
+    "seeAlso" : "file:///D:/ApacheJena/WorkSpace/SAMPLE_APACHE_JENA/SPARQL_EXAMPLE/rdf/max",
+    "mbox_sha1sum" : "9d0bdc7330a963dcd362c515f1e68f8d03a33c28",
+    "name" : "jayeeta"
+  }, {
+    "@id" : "file:///D:/ApacheJena/WorkSpace/SAMPLE_APACHE_JENA/SPARQL_EXAMPLE/rdf/testFOAF.rdf",
+    "@type" : "foaf:PersonalProfileDocument",
+    "errorReportsTo" : "mailto:leigh@ldodds.com",
+    "generatorAgent" : "http://www.ldodds.com/foaf/foaf-a-matic",
+    "maker" : "file:///D:/ApacheJena/WorkSpace/SAMPLE_APACHE_JENA/SPARQL_EXAMPLE/rdf/testFOAF.rdf#me",
+    "primaryTopic" : "file:///D:/ApacheJena/WorkSpace/SAMPLE_APACHE_JENA/SPARQL_EXAMPLE/rdf/testFOAF.rdf#me"
+  }, {
+    "@id" : "file:///D:/ApacheJena/WorkSpace/SAMPLE_APACHE_JENA/SPARQL_EXAMPLE/rdf/testFOAF.rdf#me",
+    "@type" : "foaf:Person",
+    "depiction" : "file:///D:/ApacheJena/WorkSpace/SAMPLE_APACHE_JENA/SPARQL_EXAMPLE/rdf/mosthandsome",
+    "family_name" : "Chakraborty",
+    "givenname" : "Jaydeep",
+    "homepage" : "file:///D:/ApacheJena/WorkSpace/SAMPLE_APACHE_JENA/SPARQL_EXAMPLE/rdf/myhomepage",
+    "knows" : [ "_:b2", "_:b0", "_:b1" ],
+    "mbox_sha1sum" : "b1662ccb1da9bf7a22538602cda4559a5a98dfa2",
+    "name" : "Jaydeep Chakraborty",
+    "nick" : "MrChak",
+    "phone" : "tel:111",
+    "schoolHomepage" : "file:///D:/ApacheJena/WorkSpace/SAMPLE_APACHE_JENA/SPARQL_EXAMPLE/rdf/sdf",
+    "title" : "Dr.",
+    "workInfoHomepage" : "file:///D:/ApacheJena/WorkSpace/SAMPLE_APACHE_JENA/SPARQL_EXAMPLE/rdf/dsf",
+    "workplaceHomepage" : "file:///D:/ApacheJena/WorkSpace/SAMPLE_APACHE_JENA/SPARQL_EXAMPLE/rdf/sd"
+  } ],
+  "@id" : "urn:x-arq:DefaultGraphNode",
+  "@context" : {
+    "seeAlso" : {
+      "@id" : "http://www.w3.org/2000/01/rdf-schema#seeAlso",
+      "@type" : "@id"
+    },
+    "mbox_sha1sum" : "http://xmlns.com/foaf/0.1/mbox_sha1sum",
+    "name" : "http://xmlns.com/foaf/0.1/name",
+    "knows" : {
+      "@id" : "http://xmlns.com/foaf/0.1/knows",
+      "@type" : "@id"
+    },
+    "family_name" : "http://xmlns.com/foaf/0.1/family_name",
+    "givenname" : "http://xmlns.com/foaf/0.1/givenname",
+    "workplaceHomepage" : {
+      "@id" : "http://xmlns.com/foaf/0.1/workplaceHomepage",
+      "@type" : "@id"
+    },
+    "homepage" : {
+      "@id" : "http://xmlns.com/foaf/0.1/homepage",
+      "@type" : "@id"
+    },
+    "workInfoHomepage" : {
+      "@id" : "http://xmlns.com/foaf/0.1/workInfoHomepage",
+      "@type" : "@id"
+    },
+    "phone" : {
+      "@id" : "http://xmlns.com/foaf/0.1/phone",
+      "@type" : "@id"
+    },
+    "title" : "http://xmlns.com/foaf/0.1/title",
+    "schoolHomepage" : {
+      "@id" : "http://xmlns.com/foaf/0.1/schoolHomepage",
+      "@type" : "@id"
+    },
+    "depiction" : {
+      "@id" : "http://xmlns.com/foaf/0.1/depiction",
+      "@type" : "@id"
+    },
+    "nick" : "http://xmlns.com/foaf/0.1/nick",
+    "errorReportsTo" : {
+      "@id" : "http://webns.net/mvcb/errorReportsTo",
+      "@type" : "@id"
+    },
+    "generatorAgent" : {
+      "@id" : "http://webns.net/mvcb/generatorAgent",
+      "@type" : "@id"
+    },
+    "primaryTopic" : {
+      "@id" : "http://xmlns.com/foaf/0.1/primaryTopic",
+      "@type" : "@id"
+    },
+    "maker" : {
+      "@id" : "http://xmlns.com/foaf/0.1/maker",
+      "@type" : "@id"
+    },
+    "rdfs" : "http://www.w3.org/2000/01/rdf-schema#",
+    "foaf" : "http://xmlns.com/foaf/0.1/",
+    "admin" : "http://webns.net/mvcb/",
+    "rdf" : "http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+  }
+}
